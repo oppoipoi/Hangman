@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'DinMono';
+    src: url("font/DinMono.ttf") format("ttf"),
+         url("font/DinMono.eot") format("eot"),
+         url("font/DinMono.woff") format("woff"),
+         url("font/DinMono.woff2") format("woff2"),
+}
+
+#back {
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #4b5c6b;
+}
+
+#game-contain {
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.row {
+    height: 10%;
+    width: 100%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6rem;
+}
+
+.box {
+    background-color: white;
+    height: 5rem;
+    border-radius: 8px;
+    display: block;
+    width: 5rem;
+    margin: 0.6rem;
+}
+
+#title {
+    font-family: "DinMono", Fallback, sans-serif;
+    font-size: xx-large;
+    top:1rem;
+    width: 100%;
+    height: 20%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+.play-contain {
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.play-button {
+    background-color: #1aae9f;
+    width: 18.8rem;
+    height: 6rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "DinMono", Fallback, sans-serif;
+    font-size: xx-large;
+    transition: ease-in-out 1s;
+}
+
+.play-button:hover {
+    scale: 1.1;
+}
+
+.config-contain {
+    bottom: 3%;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.config-button {
+    background-color: #788896;
+    width: 18.8rem;
+    height: 6rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "DinMono", Fallback, sans-serif;
+    font-size: xx-large;
+    transition: ease-in-out 1s;
+}
+
+.config-button:hover {
+    scale: 1.1;
+}
